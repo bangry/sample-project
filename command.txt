@@ -30,3 +30,4 @@ remote>git puch --delete origin <branch-name>
 #김기정 개발자가 소스 수정 및 push
 ---------------------------------추가
 A개발자가 작업 추가
+B개발자가 작업 추가
