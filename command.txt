@@ -1,0 +1,28 @@
+git branch <branch-name>     #브랜치 만들기
+git branch                   #로컬 브랜치 목록 조회
+git branch  -r               #서버 브랜치 목록 조회
+git branch  -a               #로컬/서버 브랜치 목록 조회
+git checkout <branch-name>   # 브랜치 전환
+
+------------------------------------------테스트를 위한 추가내용.
+
+#소스수정 & add & commit
+git  push origin <branch-name>
+git log
+다른동료폴더>git clone <git-remote-url>
+or
+다른동료폴더>git pull
+
+#master로 merge하기(작업폴더에서)
+git checkout master  #master로 이동
+git merge <branch-name>
+git branch
+git log
+
+# conflict (non fast-forward)
+git status
+
+# 브랜치 삭제
+local>git branch -d <branch-name>
+local>git branch
+remote>git puch --delete origin <branch-name>
