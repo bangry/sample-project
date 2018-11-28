@@ -31,3 +31,5 @@ remote>git puch --delete origin <branch-name>
 ---------------------------------추가
 A개발자가 작업 추가
 B개발자가 작업 추가
+
+A개발자가 작업 추가2
