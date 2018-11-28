@@ -26,3 +26,5 @@ git status
 local>git branch -d <branch-name>
 local>git branch
 remote>git puch --delete origin <branch-name>
+
+#김기정 개발자가 소스 수정 및 push
